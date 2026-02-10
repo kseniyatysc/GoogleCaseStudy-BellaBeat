@@ -71,7 +71,8 @@ These metrics were selected because they are:
 
 ## Key Insights Visualization
 
-![User Segments Based on Activity and Sleep](cloud/project/bellabeat_case_study/Outputs/Plots/activity_sleep_clusters.png)
+![Activity and Sleep Clusters](Outputs/Plots/activity_sleep_clusters.png)
+
 
 This visualization highlights distinct user behavior patterns based on
 daily activity levels and sleep duration, revealing opportunities for
