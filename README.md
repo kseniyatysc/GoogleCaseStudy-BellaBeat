@@ -71,7 +71,7 @@ These metrics were selected because they are:
 
 ## Key Insights Visualization
 
-![Activity and Sleep Clusters](../Outputs/Plots/activity_sleep_clusters.png)
+![Activity and Sleep Clusters](Outputs/Plots/Clusters.png)
 
 
 
