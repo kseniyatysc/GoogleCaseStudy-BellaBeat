@@ -1,8 +1,10 @@
 # Fitbit Activity & Sleep Behavior Analysis
+Google Data Analytics Capstone Project
 
 ## Project Overview
-This project analyzes smart device usage data from Fitbit to explore user behavior patterns related to physical activity and sleep.  
-The goal of the analysis is to identify actionable insights that can support product improvement, personalization, and user engagement strategies for a fitness tracking company.
+This project analyzes smart device usage data from Fitbit to explore user behavior patterns related to physical activity and sleep.
+
+The objective of this analysis is to identify meaningful behavioral insights that can support product personalization, user engagement strategies, and long-term retention for a smart fitness device company.
 
 This case study was completed as part of the Google Data Analytics Professional Certificate.
 
@@ -16,7 +18,6 @@ Identify patterns in daily activity and sleep behavior to help a smart fitness d
 ## Data Source
 Public Fitbit Fitness Tracker Dataset provided for the Google Data Analytics Case Study.
 
-## Data Availability
 The dataset used in this project is publicly available on Kaggle:
 
 Fitbit Fitness Tracker Data  
@@ -24,7 +25,9 @@ https://www.kaggle.com/datasets/arashnic/fitbit
 
 Due to file size considerations, raw data files are not included in this repository.
 
+---
 ### Datasets used:
+
 - `daily_activity`
 - `daily_steps`
 - `daily_calories`
@@ -32,14 +35,18 @@ Due to file size considerations, raw data files are not included in this reposit
 - `sleep_day`
 - `weight_info` (used for exploratory analysis only)
 
+---
 ### Data limitations:
 - Small and inconsistent sample size
+
 - Not all users tracked sleep or weight consistently
-- Weight and body fat data contained many missing values and were excluded from core analysis
 
----
+- Weight and body fat data contained significant missing values
 
+- Weight-related variables were excluded from the core analysis
+- 
 ## Analysis Process
+
 1. Data cleaning and validation  
 2. Data type standardization and deduplication  
 3. Feature engineering and dataset merging  
@@ -65,13 +72,24 @@ These metrics were selected because they are:
 ---
 
 ## Key Insights
-- Higher activity levels do not necessarily lead to longer sleep duration  
-- Users exhibit distinct behavior patterns when combining activity and sleep data  
-- Four clearly differentiated user segments were identified through clustering
 
-## Key Insights Visualization
+- Small and inconsistent sample size
 
-![Activity and Sleep Clusters](Outputs/Plots/user_clusters.png)
+- Not all users tracked sleep or weight consistently
+
+- Weight and body fat data contained significant missing values
+
+- Weight-related variables were excluded from the core analysis
+- 
+
+  
+## 📊 Key Insights Visualization
+
+![User Segmentation Based on Activity and Sleep](Outputs/Plots/User_Segmentation.png)
+
+This visualization illustrates the four distinct user segments identified through clustering based on average daily steps and average sleep duration. 
+
+The clear separation between clusters highlights meaningful behavioral differences and supports the implementation of personalized engagement strategies.
 
 
 
@@ -80,29 +98,35 @@ daily activity levels and sleep duration, revealing opportunities for
 personalized engagement and feature design.  
 
 ### User Segments Overview
-| Segment | Characteristics |
-|------|----------------|
-| Low activity / good sleep | Less active users with sufficient sleep |
-| Moderate activity / average sleep | Balanced users |
-| High activity / short sleep | Very active users potentially at risk of sleep deprivation |
-| Very low sleep | Users with irregular or insufficient sleep patterns |
+
+| Segment                           | Characteristics                                            |
+| --------------------------------- | ---------------------------------------------------------- |
+| Low activity / good sleep         | Less active users with sufficient sleep                    |
+| Moderate activity / average sleep | Balanced users                                             |
+| High activity / short sleep       | Very active users potentially at risk of sleep deprivation |
+| Very low sleep                    | Users with irregular or insufficient sleep patterns        |
+
 
 ---
 
 ## Business Recommendations
-- Introduce personalized insights based on combined activity and sleep behavior  
-- Encourage sleep tracking adoption through in-app nudges and education  
-- Tailor notifications and recommendations for different user segments  
-- Support highly active users with sleep optimization guidance  
 
+
+- Introduce personalized insights based on combined activity and sleep behavior
+
+- Encourage sleep tracking adoption through in-app nudges and education
+
+- Tailor notifications and engagement strategies for different user segments
+
+- Support highly active users with recovery and sleep optimization guidance
 ---
 
 ## Tools & Technologies
 - R  
 - tidyverse  
 - ggplot2  
-- R Markdown  
-
+- R Markdown
+- k-means clustering
 ---
 
 ## Project Structure
@@ -113,10 +137,27 @@ personalized engagement and feature design.
 └── README.md
 
 ---
+## Full Report
+
+The complete analytical report can be found in:
+Report/BellaBeat_Case_Study_Analysis.html
+
 
 
 
 ## Final Notes
-This analysis demonstrates a structured, end-to-end data analytics workflow, 
-focusing on data quality, metric relevance, and business impact rather than purely technical complexity.
+
+This project demonstrates a structured and business-oriented data analytics workflow.
+
+The focus is placed on:
+
+- Data quality and validation
+
+- Clear metric definition
+
+- Interpretable segmentation
+
+- Practical, actionable business recommendations
+
+The goal was to prioritize clarity, interpretability, and business impact over unnecessary technical complexity..
 
