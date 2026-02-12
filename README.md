@@ -85,7 +85,7 @@ These metrics were selected because they are:
   
 ## 📊 Key Insights Visualization
 
-![Activity and Sleep Clusters](https://raw.githubusercontent.com/kseniyatysc/GoogleCaseStudy-BellaBeat/main/BellaBeat_Case_Study/Outputs/Plots/User_Segmentation.png)
+[User_Segmentation.png](https://b524f9c9b44743d4b8cc7d3b1b0984bc.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FBellaBeat_Case_Study%2FOutputs%2FPlots%2FUsers_Segmentation.png)
 
 This visualization illustrates the four distinct user segments identified through clustering based on average daily steps and average sleep duration. 
 
