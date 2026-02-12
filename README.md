@@ -85,7 +85,7 @@ These metrics were selected because they are:
   
 ## 📊 Key Insights Visualization
 
-![User Segmentation Based on Activity and Sleep](BellaBeat_Case_Study/Outputs/Plots/User_Segmentation.png)
+![User Segmentation Based on Activity and Sleep](Outputs/Plots/User_Segmentation.png)
 
 This visualization illustrates the four distinct user segments identified through clustering based on average daily steps and average sleep duration. 
 
