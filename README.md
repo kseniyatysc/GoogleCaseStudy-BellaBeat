@@ -140,7 +140,7 @@ personalized engagement and feature design.
 ## Full Report
 
 The complete analytical report can be found in:
-Report/BellaBeat_Case_Study_Analysis.html
+[Report/BellaBeat_Case_Study_Analysis.html](https://kseniyatysc.github.io/GoogleCaseStudy-BellaBeat/Report/BellaBeat_Case_Study_Analysis.html)
 
 
 
